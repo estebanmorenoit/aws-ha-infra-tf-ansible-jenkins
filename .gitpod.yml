@@ -4,7 +4,7 @@ tasks:
       source ./bin/install_terraform_cli.sh
       source ./bin/generate_tfrc_credentials.sh
       source ./bin/set_tf_alias.sh
-      cp /workspace/aws-ha-infra-tf-ansible-jenkins/terraform.tfvars.example /workspace/3-tier-architecture/terraform.tfvars
+      cp /workspace/aws-ha-infra-tf-ansible-jenkins/terraform.tfvars.example /workspace/aws-ha-infra-tf-ansible-jenkins/terraform.tfvars
   - name: aws-cli
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
